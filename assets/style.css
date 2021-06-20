@@ -23,12 +23,4 @@ header {
   border: none;
 }
 
-.forecast-div {
-    position: relative;
-    bottom: 120px;
-    left: 250px;
-}
 
-.forecast-div {
-    position: absolute;
-}
