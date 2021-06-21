@@ -33,7 +33,7 @@ var displayWeatherRepo = function (displayRepo, searchTerm) {
 
 var getWeatherRepo = function (user) {
   fetch(
-    "http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=ba16556d951a6c55d84f1ab8d3febc95"
+    "https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=ba16556d951a6c55d84f1ab8d3febc95"
   ).then(function (response) {
     response.json().then(function (data) {
       console.log(data, user);
